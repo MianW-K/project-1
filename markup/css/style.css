@@ -5,24 +5,24 @@
   }
   @font-face {
     font-family: 'Bebas Neue';
-    src: url('/markup/fonts/BebasNeue-Regular.woff2') format('woff2'),
-        url('/markup/fonts/BebasNeue-Regular.woff') format('woff');
+    src: url('./markup/fonts/BebasNeue-Regular.woff2') format('woff2'),
+        url('./markup/fonts/BebasNeue-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 } 
 @font-face {
     font-family: 'Anton';
-    src: url('/markup/fonts/Anton-Regular.woff2') format('woff2'),
-        url('/markup/fonts/Anton-Regular.woff') format('woff');
+    src: url('./markup/fonts/Anton-Regular.woff2') format('woff2'),
+        url('./markup/fonts/Anton-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Roboto Slab';
-    src: url('/markup/fonts/RobotoSlab-Bold.woff2') format('woff2'),
-        url('/markup/fonts/RobotoSlab-Bold.woff') format('woff');
+    src: url('./markup/fonts/RobotoSlab-Bold.woff2') format('woff2'),
+        url('./markup/fonts/RobotoSlab-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -30,8 +30,8 @@
 
 @font-face {
     font-family: 'Alfa Slab One';
-    src: url('/markup/fonts/AlfaSlabOne-Regular.woff2') format('woff2'),
-        url('/markup/fonts/AlfaSlabOne-Regular.woff') format('woff');
+    src: url('./markup/fonts/AlfaSlabOne-Regular.woff2') format('woff2'),
+        url('./markup/fonts/AlfaSlabOne-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -46,7 +46,7 @@ h2                                  {font-family:'Alfa Slab One';}
 .header      .nav-link:hover        {color: rgba(236, 4, 4, 0.842);}
 .header      .navbar-toggler        { background: white; margin-bottom: 10px;}
 .header      .btn                   {background: #0b0f30c4;color: white;}
-.banner                             { background: url(/markup/image/banner-bg_01.png) no-repeat center/cover; height: 100vh;width: 100%; position: relative;margin-bottom: 100px;}
+.banner                             { background: url(./markup/image/banner-bg_01.png) no-repeat center/cover; height: 100vh;width: 100%; position: relative;margin-bottom: 100px;}
 .banner      .main-banner           {position: absolute;top: 50%;transform: translateY(-50%)}
 .banner      .content               p {margin: 0;border: 5px solid;border-radius: 10px;padding: 10px;border-style: dotted;width: 470px;}
 .banner      .content               h1{font-family: 'Alfa Slab One';  font-size: 120px;color: #3d2514;text-shadow: 5px 5px white;}

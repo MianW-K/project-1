@@ -1,0 +1,139 @@
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Bebas Neue';
+    src: url('/markup/fonts/BebasNeue-Regular.woff2') format('woff2'),
+        url('/markup/fonts/BebasNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Anton';
+    src: url('/markup/fonts/Anton-Regular.woff2') format('woff2'),
+        url('/markup/fonts/Anton-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('/markup/fonts/RobotoSlab-Bold.woff2') format('woff2'),
+        url('/markup/fonts/RobotoSlab-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alfa Slab One';
+    src: url('/markup/fonts/AlfaSlabOne-Regular.woff2') format('woff2'),
+        url('/markup/fonts/AlfaSlabOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*                                   { font-family: 'Roboto Slab';}
+body                                { background: #14c5a5 !important;} 
+h2                                  {font-family:'Alfa Slab One';}
+.header                             { position: absolute; padding-top:30px; width: 100%; z-index: 1;}
+.header      .collapse              { display: flex; flex-direction: row-reverse;}
+.header      ul.navbar-nav          { gap: 20px;}
+.header      .nav-link              {color: #3d2514; transition: ease-in-out 0.3s;}
+.header      .nav-link:hover        {color: rgba(236, 4, 4, 0.842);}
+.header      .navbar-toggler        { background: white; margin-bottom: 10px;}
+.header      .btn                   {background: #0b0f30c4;color: white;}
+.banner                             { background: url(/markup/image/banner-bg_01.png) no-repeat center/cover; height: 100vh;width: 100%; position: relative;margin-bottom: 100px;}
+.banner      .main-banner           {position: absolute;top: 50%;transform: translateY(-50%)}
+.banner      .content               p {margin: 0;border: 5px solid;border-radius: 10px;padding: 10px;border-style: dotted;width: 470px;}
+.banner      .content               h1{font-family: 'Alfa Slab One';  font-size: 120px;color: #3d2514;text-shadow: 5px 5px white;}
+.banner      .content               h2{font-family: 'Alfa Slab One';  font-size: 60px;color: #3d2514;text-shadow: 5px 5px white;}
+.banner      .sub-banner            {gap: 95px;}
+.section-1                          { margin-bottom: 100px;}
+.section-1   .main-section-1        { gap: 20px; }
+.section-1   .image-1               { position: relative; width: 50%;}
+.section-1   .image-1               .imag { width: 100%; height: 100%;}
+.section-1   .image-1               p {font-family: "Archivo Black"; font-size: 29px; }
+.section-1   .image-1               img { width: 100%; height: 100%;}
+.section-1   .main-section-1        .text { position: absolute; color: rgb(255, 255, 255); top: 25px;left: 25px;}
+.section-1   .image-2               {width: 50%; position: relative; gap: 20px;}
+.section-1   .image-2               .image img { width: 100%; height: 100%;}
+.section-1   .image-2               .image { height: 50%;}
+.section-1   .image-2               .text { position: absolute; color: wheat;}
+.section-1   .image-2               .text p { font-family: "Archivo Black";width: 200px; font-size: 26px; margin: 0; }
+.section-1   .image-2               .text-2 p {  font-family: "Archivo Black"; font-size: 27px; }
+.section-1   .image-2               .text-2 { position: absolute;bottom: 1px;left: 20px;color: wheat;}
+.products                           { margin-bottom: 100px;}
+.products    .product-header        {  text-align: center; }
+.products    .product-header        p { margin-bottom: 45px;}
+.products    .product-header        h2 {color: #3d2514; font-family:'Alfa Slab One' ; font-size: 50px; margin-bottom: 45px;}
+.products    .product-header        span { font-size: 27px; font-family: 'Bebas Neue'; background-color: #ffc045; margin-bottom: 45px; display: inline-block; padding: 10px;}
+.products    .product-content       .content-text {text-align: center; width: 320px; margin: 10px auto;}
+.products    .product-content       .content-text h3 {  font-family: 'Bebas Neue'; font-size: 40px; margin-bottom: 30px; }
+.products    .product-content       button{font-family: "Alfa Slab One"; background: rgb(204, 2, 2);padding: 15px 25px;color: white;border: 1px solid red; transition: ease-in-out 0.3s;}
+.products    .product-content       button:hover {background: white;color:red; border: 1px solid red;}
+.events                             { margin-bottom: 100px; }
+.events      .main-events           {padding: 25px;box-shadow: 0 0 20px white; }
+.events      .event-content         { padding-top: 40px;}
+.events      .event-content         span { color: #3d2514; font-family:'Bebas Neue'; font-size: 25px;}
+.events      .event-content         h2 {color: #3d2514; font-family:'Alfa Slab One';font-size: 40px; margin-bottom: 30px;}
+.events      .event-content         p {width: 550px;}
+.reservation                        {position: relative;  margin-bottom: 100px;}
+.reservation .reservation-text      { text-align: center;}
+.reservation .reservation-text      span  {display: inline-block; margin-bottom: 10px; font-size: 35px;font-family: 'Bebas Neue';} 
+.reservation .reservation-text      h2 {margin-bottom: 30px; font-size: 50px;color: #3d2514;} 
+.reservation ul                     { padding: 0 200px;}
+.reservation ul                     input { border: 1px solid white; border-radius: 5px; padding: 20px 10px; width: 100%; margin-bottom: 20px;}
+.reservation ul                     button { width: 100%; height: 67px;padding: 10px; border-radius: 5px; color: white;background: rgb(204, 2, 2) ; border: 1px solid red; transition: ease-in-out 0.3s;}
+.reservation ul                     button:hover {color:red;background: white; }
+.reservation .background-strakers-1 { position: absolute; top: 0; left: 0;}
+.reservation .background-strakers-2 { position: absolute; bottom: 0; right: 0; z-index:-1;}
+.reservation .background-strakers-3 { position: absolute; top: 40%;}
+.footer                             {padding: 30px;color: white; background: url(/markup/image/footer-bg.png)no-repeat center/cover; height: 100%;}
+.footer      .footer-logo           { margin-bottom: 50px;}
+.footer      .content-text          p{  width: 600px; margin-bottom: 100px;}
+.footer      ul                     li {list-style: none;}
+.footer      li                     a { text-decoration: none; color: white;}
+.footer      .platforms             svg { background: white; color: black;font-size: 20px;padding: 10px; border-radius: 50%; transition: ease-in-out 0.3s;}
+.footer      .platforms             svg.svg-inline--fa.fa-facebook-f{padding: 10px 15px;}
+.footer      .platforms             svg.svg-inline--fa.fa-instagram {padding: 10px 12px;}
+.footer      .platforms             svg.svg-inline--fa.fa-whatsapp  {padding: 10px 12px;}
+.footer      .platforms             svg:hover{ background:black; color:white; cursor: pointer;}
+@media  (max-width: 1199px) and (min-width: 991px) {
+    .banner .content h2 {font-size: 40px;}
+    .banner .content h1 {font-size: 85px}
+    .banner .content p  {width: 360px;font-size: 12px;}
+    .banner .sub-banner {gap: 40px;}
+    .section-1 .main-section-1 .text {top: 5px;left: 10px;}
+    span {font-size: 10px;}
+    .section-1 .image-2 .text p { width: 145px;font-size: 18px;}
+    .section-1 .image-2 .text-2 {bottom: 5px;left: 10px;}
+    .section-1 .image-2 .text-2 p { font-size: 17px; margin: 0;}
+}
+@media  (max-width: 991px) and (min-width: 767px) {
+    .header .collapse {flex-direction: row;  background:linear-gradient(to right, #43c6ac9d, #1916548e) ;padding:0 10px 10px; border-radius: 10px ;}
+    .header-logo  { padding:10px 20px;}
+    .banner .content h2 {font-size: 40px;}
+    .banner .content h1 {font-size: 70px;}
+    .banner .content p  {font-size: 10px;width: 305px;}
+    .banner .sub-banner {gap: 40px;}
+    .section-1 .main-section-1 .text {top: 5px;left: 10px;}
+    span {font-size: 10px;}
+    .section-1 .image-2 .text p { width: 145px;font-size: 18px;}
+    .section-1 .image-2 .text-2 {bottom: 5px;left: 10px;}
+    .section-1 .image-2 .text-2 p { font-size: 17px; margin: 0;}
+}
+@media  (max-width: 767px) and (min-width: 0px) {
+    .sub-banner { flex-direction: column;}
+    .main-section-1 {flex-direction: column;}
+    .section-1 .image-1 { width: auto;}
+    .section-1 .image-2 { width: auto;}
+    .section-1 .image-2 .image { width: auto;}
+    .banner .content h1 {font-size: 105px; margin: 0;}
+    .banner .content h2 {font-size: 50px;}
+    .banner .content p  {font-size: 15px;width: 445px;}
+
+}
